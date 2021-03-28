@@ -1,16 +1,19 @@
 {
    "background": {
-      "persistent": true,
-      "scripts": [ "src/bg/background.js" ]
+      "scripts": [ "src/bg/background.js" ],
+      "persistent": true
    },
    "content_scripts": [ {
       "css": [ "src/inject/inject.css" ],
-      "js": [ "src/inject/inject.js" ],
       "matches": [ "https://moodle.nu.edu.kz/*" ]
    } ],
-   "description": "Test extension, night theme for NU moodle",
+   "description": "Extension, that will turn on night theme",
    "manifest_version": 2,
-   "name": "NU Moodle Dark",
-   "permissions": [ "https://moodle.nu.edu.kz/*" ],
-   "version": "1.0.1"
+   "name": "NU Dark",
+   "permissions": [ "https://moodle.nu.edu.kz/*"],
+   "version": "2.0",
+   "browser_action": {
+      "default_icon": "favicon.png",
+      "default_title": "NU Dark"
+    }
 }
