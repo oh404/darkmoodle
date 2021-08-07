@@ -36,6 +36,11 @@ a:hover {
 
 /** moodle quiz**/
 
+.radio {
+	background-color: #ffffff !important;
+}
+
+
 .icon.fa.fa-remove.text-danger.fa-fw {
 	color: #b00000 !important;
 }
