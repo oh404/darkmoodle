@@ -1,19 +1,19 @@
 {
-   "background": {
-      "scripts": [ "src/bg/background.js" ],
-      "persistent": true
-   },
-   "content_scripts": [ {
-      "css": [ "src/inject/inject.css" ],
-      "matches": [ "https://moodle.nu.edu.kz/*" ]
-   } ],
-   "description": "Extension, that will turn on night theme",
-   "manifest_version": 2,
-   "name": "NU Dark",
-   "permissions": [ "https://moodle.nu.edu.kz/*"],
-   "version": "2.0.1",
-   "browser_action": {
-      "default_icon": "favicon.png",
-      "default_title": "NU Dark"
+    "background": {
+        "scripts": ["src/bg/background.js"],
+        "persistent": true
+    },
+    "content_scripts": [{
+        "css": ["src/inject/inject2.css"],
+        "matches": ["https://moodle.nu.edu.kz/*"]
+    }],
+    "description": "Extension, that will turn on night theme",
+    "manifest_version": 2,
+    "name": "NU Dark",
+    "permissions": ["https://moodle.nu.edu.kz/*"],
+    "version": "2.0.1",
+    "browser_action": {
+        "default_icon": "favicon.png",
+        "default_title": "NU Dark"
     }
 }

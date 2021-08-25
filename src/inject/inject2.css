@@ -1,0 +1,525 @@
+/** Links: **/
+
+a {
+    color: #d7d8da !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+
+/** Borders: **/
+
+.card {
+    border: 1px solid rgba(190, 190, 190, .125) !important;
+}
+
+.no-progress {
+    background-color: #5C5B5B !important;
+}
+
+
+/** NEWMOODLE UPDATE AUGUST2021 **/
+
+.section.main.clearfix,
+#region-main,
+.header.c0,
+.header.c1,
+.table,
+.generaltable {
+    background-color: #252628 !important;
+    color: #ffffff !important;
+}
+
+.section.main.clearfix {
+    background-color: #252628 !important;
+    color: #ffffff !important;
+}
+
+
+/** newmoodle - course col-12 **/
+
+#region-main-box {
+    background-color: #252628 !important;
+    color: #ffffff !important;
+}
+
+.col-12.pt-3.pb-3 {
+    background-color: #252628 !important;
+    color: #ffffff !important;
+}
+
+
+/** NEWMOODLE - announcements: **/
+
+.region_main_settings_menu_proxy {
+    background-color: #252628 !important;
+}
+
+
+/** GENERAL - MAIN PAGE **/
+
+.body,
+.card-body,
+.dropdown-menu.show,
+.card-footer.dashboard-card-footer.border-0.bg-white,
+.btn.nav-link.float-sm-left.mr-1.btn-light.bg-gray {
+    background-color: #252628 !important;
+    text-decoration: none !important;
+}
+
+
+/** TIMELINE / COURSES button **/
+
+.nav-link.active {
+    background-color: #355f8c !important;
+}
+
+
+/** Alert about ZOOM, used in old moodle, not required
+now, but still let it stay here**/
+
+.alert.alert-info {
+    background-color: #003366 !important;
+    color: #d7d9da !important;
+}
+
+.alert.alert-danger {
+    background-color: #660029 !important;
+    color: #d7d9da !important;
+}
+
+
+/** Menu on the left side, list group **/
+
+.list-group-item,
+.list-group-item.list-group-item-action,
+.list-group-item.list-group-item-action.active {
+    background-color: #313235 !important;
+}
+
+
+/** GENERAL - MAIN PAGE, COURSE CARD & BUTTONS **/
+
+.navbar-icons svg path,
+.icon.fa.fa-fw {
+    fill: #fff !important;
+    color: #ffffff !important;
+}
+
+#navbar-course-search .btn.btn-secondary,
+.btn.btn-primary {
+    background-color: #494b50 !important;
+}
+
+span.highlight {
+    color: #ffffff !important;
+}
+
+.hamburger .line {
+    background-color: #ffffff !important;
+}
+
+.d-print-none.moodle-has-zindex {
+    background-color: #252628 !important;
+}
+
+.media-body {
+    color: #d7d8da !important;
+}
+
+.btn.nav-link.float-sm-left.mr-1.btn-secondary {
+    background-color: #313335 !important;
+}
+
+.block_lw_courses.block.card.mb-3 {
+    margin-top: 16px;
+}
+
+.course-card-body .card-body {
+    background-color: #36383a !important;
+}
+
+.box.coursebox.grid.span4.col-md-4.card.grid.col-xs-12.p-y-1 {
+    cursor: pointer;
+    padding-bottom: 16px !important;
+}
+
+.box.coursebox.grid.span4.col-md-4.card.grid.col-xs-12.p-y-1 .card-body {
+    position: relative;
+    top: 0;
+    margin: 0;
+}
+
+.course-card-body .image_wrap {
+    height: 250px;
+    background: linear-gradient(135deg, #000 0%, #355f8c 100%);
+}
+
+.course-card-body .coursename {
+    font-weight: bolder;
+    background-color: #fff !important;
+    color: #36383a !important;
+}
+
+.btn.btn-primary.grid_button {
+    background-color: #36383a !important;
+}
+
+.btn.btn-primary.grid_button a {
+    color: #fff !important;
+}
+
+
+/* PROFILE FIX */
+
+.node_category {
+    background-color: #252628 !important;
+}
+
+
+/** MENUS - dropdown menu with Grades, Profile Buttons **/
+
+.dropdown-menu.show {
+    border: 1px solid #fff;
+    text-decoration: none !important;
+}
+
+.dropdown-menu.show .dropdown-item:hover,
+.nav-link.active {
+    background-color: #62656a !important;
+    text-decoration: none !important;
+}
+
+.dropdown-menu.show .dropdown-item {
+    /**  padding: 8px; уменьшаем ширину**/
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+.dropdown-menu.show .dropdown-divider {
+    margin: 0 !important;
+    text-decoration: none !important;
+}
+
+table caption b {
+    color: #ffffff;
+    width: 100%;
+}
+
+
+/** USER GRADES: **/
+
+.generaltable tbody tr:nth-of-type(even)>td {
+    background-color: #313235 !important;
+}
+
+.generaltable tbody tr:hover>td {
+    background-color: #18191b !important;
+}
+
+.popover-region-container,
+.popover-region-seeall-text,
+.popover-region-header-container h3,
+.popover-region-header-container a {
+    color: #7a7e85 !important;
+}
+
+
+/** MOODLE SUBMISSION - SUBMITTED ASSIGNMENT GREEN: **/
+
+.submissionstatussubmitted.cell.c1.lastcol,
+.submissiongraded.cell.c1.lastcol {
+    background-color: #008000 !important;
+    color: #33ff33 !important;
+}
+
+
+/** MOODLE SUBMISSION **/
+
+.latesubmission.cell.c1.lastcol {
+    background-color: #660029 !important;
+    color: #d7d9da !important;
+}
+
+.fp-filename-field {
+    background-color: #252628 !important;
+    color: #248f24 !important;
+}
+
+
+/** MOODLEQUIZ **/
+
+.radio,
+.checkbox {
+    background-color: #ffffff !important;
+}
+
+.icon.fa.fa-remove.text-danger.fa-fw {
+    color: #b00000 !important;
+}
+
+.icon.fa.fa-check.text-success.fa-fw {
+    color: #009e25 !important;
+}
+
+.formulation.clearfix {
+    background-color: #000f21 !important;
+    color: #ffffff !important;
+}
+
+.info {
+    background-color: #3e4045 !important;
+    color: #ffffff !important;
+}
+
+.qnbutton.complete.free.btn.btn-secondary.thispage {
+    background-color: #248f24 !important;
+}
+
+.qnbutton.requiresgrading.free.btn.btn-secondary.thispage,
+.qnbutton.correct.free.btn.btn-secondary.thispage {
+    background-color: #313236 !important;
+    color: #ffffff !important;
+}
+
+.qnbutton.complete.free.btn.btn-secondary,
+.cell {
+    background-color: #252628 !important;
+}
+
+.comment.clearfix,
+.outcome.clearfix {
+    background-color: #cca700 !important;
+}
+
+.fixed-top.navbar.navbar-light.bg-white.navbar-expand.moodle-has-zindex {
+    background-color: #36383a !important;
+}
+
+
+/** TURNITIN FIX **/
+
+.inbox.inbox-student,
+.tabs,
+.part_tabs_menu,
+.page-mod-turnitintooltwo-view,
+.submissionsDataTable.dataTable.no-footer,
+.partDetails,
+.mod_turnitintooltwo,
+.top.listbar.clearfix,
+.center,
+.right,
+.sorting_1,
+.sorting_2,
+.right.sorting_1,
+.right.sorting_2,
+.loading-message,
+.box.py-3.ui-tabs.ui-corner-all.ui-widget.ui-widget-content {
+    background-color: #252628 !important;
+    color: #ffffff !important;
+}
+
+
+/** PAGE ITEM FIX - PAGE NUMBERING **/
+
+.page-item,
+.page-item:hover,
+.page-item.active {
+    background-color: #494b50 !important;
+    color: #494b50 !important;
+}
+
+.page-link {
+    background-color: #494b50 !important;
+}
+
+
+/** PERSONAL MESSAGES FIX **/
+
+.response,
+.searchtextarea,
+.response,
+.tabimage,
+.send-message-txt,
+.search-box,
+.tabs,
+.forumsearch {
+    background-color: #252628 !important;
+}
+
+.contact.unread {
+    background-color: #62656a !important;
+}
+
+
+/* style navigation breadcrumbs */
+
+ol.breadcrumb {
+    padding-left: 30px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-decoration: none !important;
+}
+
+
+/* course page details */
+
+img.activityicon {
+    width: auto !important;
+}
+
+#iframeBounceMessage {
+    color: #fff !important;
+}
+
+.form-inline.felement .atto_group button {
+    background-color: #36383a;
+}
+
+
+/* stack */
+
+.content .formulation.clearfix {
+    background-color: transparent;
+}
+
+.content .formulation.clearfix table {
+    color: #fff !important;
+}
+
+.content .formulation.clearfix .stackinputfeedback p {
+    color: #000 !important;
+}
+
+.card-body .que .info {
+    background-color: transparent;
+}
+
+
+/* returns */
+
+.earlysubmission.cell.c1.lastcol,
+.submissionnotgraded.cell.c1.lastcol,
+.phase .phasetitle {
+    color: #fff !important;
+}
+
+dl.phase .active li,
+dl.phase .active a,
+dl.phase .active .phasetitle {
+    color: #000 !important;
+}
+
+dl.phase .nonactive {
+    background-color: #36383a !important;
+}
+
+
+/* modals */
+
+.modal-body,
+.modal-footer {
+    background-color: #313235 !important;
+    color: #d7d8da !important;
+}
+
+.modal-header,
+.modal-header .modal-title {
+    background-color: #313235 !important;
+    color: #d7d8da !important;
+}
+
+
+/** MOODLE MODAL WINDOWS, TURNITIN - FIX **/
+
+.moodle-dialogue-hd,
+.moodle-dialogue-bd,
+.moodle-dialogue-header,
+.moodle-dialogue-header .moodle-dialogue-title,
+.btn.btn-secondary.btn-sm,
+.mod_turnitintooltwo {
+    background-color: #313235 !important;
+    color: #d7d8da !important;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #1e2a38 !important;
+}
+
+.d-print-none.moodle-has-zindex .list-group-item.list-group-item-action,
+#nav-drawer span.media-left i {
+    color: #FFFFFF !important;
+}
+
+.d-print-none.moodle-has-zindex .list-group-item.list-group-item-action:hover {
+    background-color: transparent !important;
+    opacity: 0.5;
+}
+
+.d-print-none.moodle-has-zindex .list-group-item.list-group-item-action.active {
+    background-color: #355f8c !important;
+    color: #fff !important;
+}
+
+
+/** MISC **/
+
+.site-logo,
+.jumbotron.jumbotron-fluid,
+a.navbar-icons,
+.course-card-body .star-container,
+.course-card-body .image_wrap .card-img-top,
+.block_calendar_month.block.card.mb-3,
+aside .block_html.block.card.mb-3,
+aside .block_news_items.block.card.mb-3,
+a.grid.col-md-4.span4,
+#page-header .singlebutton form,
+.fas.fa-chevron-up.toggle-content,
+.hamburger,
+.logo.d-none.d-sm-inline {
+    display: none;
+}
+
+
+/** settnigs **/
+
+.card-title.d-inline,
+ol.breadcrumb,
+.card,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+
+/** Personal Messages & Notifications Section **/
+
+.popover-region-header-container,
+.popover-region-container a,
+.content-item-container.notification.unread,
+.popover-region-footer-container,
+.popover-region-seeall-text,
+.popover-region-content-container {
+    background-color: #36383a !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}

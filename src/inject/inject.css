@@ -1,104 +1,112 @@
-/**
- * Place your custom CSS styles here.
- **/
-/* style non-header links */
-body{
-	background: grey;
-	margin: 0;
-  } 
-  
+/** Links: **/
+
 a {
-  color: #d7d8da !important;
-  text-decoration: none !important;
-//*  border-color: #ffffff !important; **/
+    color: #d7d8da !important;
+    text-decoration: none !important;
 }
 
 a:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
-/**borders**/
+
+/** Borders: **/
+
 .card {
-	border: 1px solid rgba(190, 190, 190, .125) !important;
+    border: 1px solid rgba(190, 190, 190, .125) !important;
 }
-	
+
 .no-progress {
-	background-color: #5C5B5B !important;
+    background-color: #5C5B5B !important;
 }
+
 
 /**Latesubmission: **/
+
 .latesubmission.cell.c1.lastcol {
-	background-color: #660029 !important;
-	color: #d7d9da !important;
+    background-color: #660029 !important;
+    color: #d7d9da !important;
 }
 
+
 /**submissionpage **/
+
 .fp-filename-field {
-	background-color: #252628 !important;
-	color: #248f24 !important;
+    background-color: #252628 !important;
+    color: #248f24 !important;
 }
+
 
 /** moodle quiz**/
 
+
 /** newmoodle **/
 
-
-
 .section.main.clearfix {
-	background-color: #252628 !important;
-	color: #ffffff !important;	
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
+
 
 /** newmoodle - course col-12 **/
+
 #region-main {
-	background-color: #252628 !important;
-	color: #ffffff !important;		
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
+
 
 /** newmoodle - grades: course title and grade FIX **/
-.header.c0, .header.c1 {
-	background-color: #252628 !important;
-	color: #ffffff !important;			
+
+.header.c0,
+.header.c1 {
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
+
 /** newmoodle - discussion author text color && settings buttion **/
+
 .table {
-	color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 .region_main_settings_menu_proxy {
-	background-color: #252628 !important;
+    background-color: #252628 !important;
 }
 
+
 /** newmoddle - moodlequiz **/
+
 .generaltable {
-	background-color: #252628 !important;
-	color: #ffffff !important;		
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
+
 
 /** **/
 
 .radio {
-	background-color: #ffffff !important;
+    background-color: #ffffff !important;
 }
 
-
 .icon.fa.fa-remove.text-danger.fa-fw {
-	color: #b00000 !important;
+    color: #b00000 !important;
 }
 
 .icon.fa.fa-check.text-success.fa-fw {
-	color: #009e25 !important;
+    color: #009e25 !important;
 }
 
 .checkbox {
-	background-color: #ffffff !important;
+    background-color: #ffffff !important;
 }
 
 .formulation.clearfix {
-	background-color: #000f21 !important;
-	color: #ffffff !important;
+    background-color: #000f21 !important;
+    color: #ffffff !important;
 }
+
 
 /**.qtext {
 	background-color: #3e4045 !important;
@@ -106,19 +114,18 @@ a:hover {
 }**/
 
 .info {
-	background-color: #3e4045 !important;
-	color: #ffffff !important;
-	
+    background-color: #3e4045 !important;
+    color: #ffffff !important;
 }
 
 .cell {
-	background-color: #252628 !important;
+    background-color: #252628 !important;
 }
 
 .qnbutton.complete.free.btn.btn-secondary.thispage {
-	background-color: #248f24 !important;
-
+    background-color: #248f24 !important;
 }
+
 
 /**.thispageholder {
 	background-color: #313236 !important;
@@ -126,50 +133,55 @@ a:hover {
 }**/
 
 .qnbutton.requiresgrading.free.btn.btn-secondary.thispage {
-	background-color: #313236 !important;
-	color: #ffffff !important;
+    background-color: #313236 !important;
+    color: #ffffff !important;
 }
 
 .qnbutton.correct.free.btn.btn-secondary.thispage {
-	background-color: #313236 !important;
-	color: #ffffff !important;
+    background-color: #313236 !important;
+    color: #ffffff !important;
 }
 
 .qnbutton.complete.free.btn.btn-secondary {
-	background-color: #252628 !important;
+    background-color: #252628 !important;
 }
 
 .comment.clearfix {
-	background-color: #cca700 !important;
+    background-color: #cca700 !important;
 }
 
 .outcome.clearfix {
-		background-color: #cca700 !important;
+    background-color: #cca700 !important;
 }
 
 .fixed-top.navbar.navbar-light.bg-white.navbar-expand.moodle-has-zindex {
-  background-color: #36383a !important;
+    background-color: #36383a !important;
 }
+
+
 /** 
 d-print-none moodle-has-zindex
 **/
 
-.navbar-icons svg path, .icon.fa.fa-fw {
-  fill: #fff !important;
-  color: #ffffff !important;
+.navbar-icons svg path,
+.icon.fa.fa-fw {
+    fill: #fff !important;
+    color: #ffffff !important;
 }
 
-#navbar-course-search .btn.btn-secondary, .btn.btn-primary {
-  background-color: #494b50 !important;
+#navbar-course-search .btn.btn-secondary,
+.btn.btn-primary {
+    background-color: #494b50 !important;
 }
 
 span.highlight {
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 .hamburger .line {
-  background-color: #ffffff !important;
+    background-color: #ffffff !important;
 }
+
 
 /* slideover 
 format-site path-my safari dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-nu-edu-kz pagelayout-mydashboard course-1 context-3690 drawer-open-left jsenabled vsc-initialized
@@ -177,281 +189,304 @@ btn nav-link float-sm-left mr-1 btn-secondary
 d-inline-block mr-3
 */
 
+
 /** **/
+
+
 /** additional **/
+
+
 /** кнопка рядом с лого**/
 
 .btn.nav-link.float-sm-left.mr-1.btn-secondary {
-	background-color: #313335 !important;
+    background-color: #313335 !important;
 }
+
+
 /** NU Logo is hidden, because background is white, лень менять 
 .logo.d-none.d-sm-inline {
 	visibility: hidden !important;
-} **/
+} 
 
 /** **/
+
 .d-print-none.moodle-has-zindex {
-	background-color: #252628 !important;
+    background-color: #252628 !important;
 }
 
 .media-body {
-	color: #d7d8da !important;
+    color: #d7d8da !important;
 }
 
+
 /** **/
+
 .list-group-item {
-	background-color: #313235 !important;
-
+    background-color: #313235 !important;
 }
 
+
 /** **/
+
 .list-group-item.list-group-item-action {
-	background-color: #313235 !important;
-
+    background-color: #313235 !important;
 }
 
-/** **/
-.list-group-item.list-group-item-action.active {
-	background-color: #313235 !important;
 
+/** **/
+
+.list-group-item.list-group-item-action.active {
+    background-color: #313235 !important;
 }
 
 
 /** list-group-item.list-group-item-action.active 
 	list-group-item
 	list-group-item.list-group-item-action **/
-	
+
+
 /** notification block, blue "zoom big blue button" and "Moodle Guides for students" 
 notification-block-wrapper info aicon
 notification-block-wrapper danger**/
 
 .alert.alert-info {
-	background-color: #003366 !important;
-	color: #d7d9da !important;
+    background-color: #003366 !important;
+    color: #d7d9da !important;
 }
 
 .alert.alert-danger {
-	background-color: #660029 !important;
-	color: #d7d9da !important;
+    background-color: #660029 !important;
+    color: #d7d9da !important;
 }
+
 
 /** navbar "timeline / courses" **/
 
 .nav-link.active {
-	background-color: #355f8c !important;
+    background-color: #355f8c !important;
 }
+
 
 /** page-item - номер страницы
 page-item active  **/
+
 .page-item {
-	background-color: #494b50 !important;
-	color: #494b50 !important;
+    background-color: #494b50 !important;
+    color: #494b50 !important;
 }
 
 .page-link {
-	background-color: #494b50 !important;
+    background-color: #494b50 !important;
 }
 
 .page-item:hover {
-	background-color: #494b50 !important;
-	color: #494b50 !important;
+    background-color: #494b50 !important;
+    color: #494b50 !important;
 }
 
 .page-item.active {
-	background-color: #494b50 !important;	
-	color: #494b50 !important;
+    background-color: #494b50 !important;
+    color: #494b50 !important;
 }
 
 
 /** additional ends **/
 
-.d-print-none.moodle-has-zindex .list-group-item.list-group-item-action, #nav-drawer span.media-left i {
-  color: #FFFFFF !important;
+.d-print-none.moodle-has-zindex .list-group-item.list-group-item-action,
+#nav-drawer span.media-left i {
+    color: #FFFFFF !important;
 }
 
 .d-print-none.moodle-has-zindex .list-group-item.list-group-item-action:hover {
-  background-color: transparent !important;
-  opacity: 0.5;
+    background-color: transparent !important;
+    opacity: 0.5;
 }
 
 .d-print-none.moodle-has-zindex .list-group-item.list-group-item-action.active {
-  background-color: #355f8c !important;
-  color: #fff !important;
+    background-color: #355f8c !important;
+    color: #fff !important;
 }
+
+
 /* profile fix */
 
 .node_category {
-  background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 
 /*personal messages fix */
+
 .response {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .searchtextarea {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .response {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .tabimage {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .send-message-txt {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .search-box {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .tabs {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .forumsearch {
-	background-color: #252628 !important;	
+    background-color: #252628 !important;
 }
 
 .contact.unread {
-	background-color: #62656a !important;		
+    background-color: #62656a !important;
 }
 
+
 /*turnitin */
+
 .inbox.inbox-student {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .tabs {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .part_tabs_menu {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .page-mod-turnitintooltwo-view {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .submissionsDataTable.dataTable.no-footer {
-	background-color: #252628 !important;	
-	color: #ffffff !important;	
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .partDetails {
-	background-color: #252628 !important;	
-	color: #ffffff !important;	
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .mod_turnitintooltwo {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .top.listbar.clearfix {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .center {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .right {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .sorting_1 {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .sorting_2 {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .right.sorting_1 {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .right.sorting_2 {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .loading-message {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
-}
-
-.10453_processing {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
 
 .box.py-3.ui-tabs.ui-corner-all.ui-widget.ui-widget-content {
-	background-color: #252628 !important;	
-	color: #ffffff !important;
+    background-color: #252628 !important;
+    color: #ffffff !important;
 }
+
+
+/**=================**/
 
 
 /* general главная страница */
+
 body,
 .card-body,
 .dropdown-menu.show {
-  background-color: #252628 !important;
-  text-decoration: none !important;
+    background-color: #252628 !important;
+    text-decoration: none !important;
 }
 
 .card-footer.dashboard-card-footer.border-0.bg-white {
-	background-color: #252628 !important;
-	text-decoration: none !important;
+    background-color: #252628 !important;
+    text-decoration: none !important;
 }
 
 .btn.nav-link.float-sm-left.mr-1.btn-light.bg-gray {
-	background-color: #252628 !important;
-	text-decoration: none !important;
+    background-color: #252628 !important;
+    text-decoration: none !important;
 }
+
 
 /** менюшка под именем с грейдами\профиль **/
+
 .dropdown-menu.show {
-  border: 1px solid #fff;
-  text-decoration: none !important;
+    border: 1px solid #fff;
+    text-decoration: none !important;
 }
 
-.dropdown-menu.show .dropdown-item:hover, .nav-link.active {
-  background-color: #62656a !important;
-  text-decoration: none !important;
+.dropdown-menu.show .dropdown-item:hover,
+.nav-link.active {
+    background-color: #62656a !important;
+    text-decoration: none !important;
 }
 
 .dropdown-menu.show .dropdown-item {
-/**  padding: 8px; уменьшаем ширину**/ 
-  color: #ffffff;
-  text-decoration: none !important;
+    /**  padding: 8px; уменьшаем ширину**/
+    color: #ffffff;
+    text-decoration: none !important;
 }
 
 .dropdown-menu.show .dropdown-divider {
-  margin: 0 !important;
-  text-decoration: none !important;
+    margin: 0 !important;
+    text-decoration: none !important;
 }
 
 table caption b {
-  color: #ffffff;
-  width: 100%;
+    color: #ffffff;
+    width: 100%;
 }
 
 .site-logo,
@@ -466,210 +501,182 @@ a.grid.col-md-4.span4,
 #page-header .singlebutton form,
 .fas.fa-chevron-up.toggle-content,
 .hamburger {
-  display: none;
+    display: none;
 }
 
 .card-title.d-inline,
 ol.breadcrumb,
 .card,
-p, li, h1, h2, h3, h4, h5, h6 {
-  color: #ffffff !important;
-  background-color: transparent !important;
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff !important;
+    background-color: transparent !important;
 }
 
+
 /* PERSONAL MESSAGES AND NOTIFICATIONS SECTION */
+
 .content-item-container.notification.unread {
-	background-color: #36383a !important;
+    background-color: #36383a !important;
 }
 
 .popover-region-container a {
-  background-color: #36383a !important;
-  color: #ffffff !important;
+    background-color: #36383a !important;
+    color: #ffffff !important;
 }
 
 .popover-region-header-container {
-  background-color: #36383a !important;
-  color: #ffffff !important;
-  text-decoration: none !important;
+    background-color: #36383a !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 .popover-region-footer-container {
-  background-color: #36383a !important;
-  color: #ffffff !important;
-  text-decoration: none !important;
+    background-color: #36383a !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 .popover-region-seeall-text {
-  background-color: #36383a !important;
-  color: #ffffff !important;
-  text-decoration: none !important;
+    background-color: #36383a !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 .popover-region-content-container {
-  background-color: #36383a !important;
-  color: #ffffff !important;
-  text-decoration: none !important;
+    background-color: #36383a !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
+
 
 /* style course cards on the front page */
 
 .block_lw_courses.block.card.mb-3 {
-  margin-top: 16px;
+    margin-top: 16px;
 }
+
 .course-card-body .card-body {
-  background-color: #36383a !important;
+    background-color: #36383a !important;
 }
 
 .box.coursebox.grid.span4.col-md-4.card.grid.col-xs-12.p-y-1 {
-  cursor: pointer;
-  padding-bottom: 16px !important;
+    cursor: pointer;
+    padding-bottom: 16px !important;
 }
 
 .box.coursebox.grid.span4.col-md-4.card.grid.col-xs-12.p-y-1 .card-body {
-  position: relative;
-  top: 0;
-  margin: 0;
+    position: relative;
+    top: 0;
+    margin: 0;
 }
 
 .course-card-body .image_wrap {
-  height: 250px;
-  background: linear-gradient(135deg, #000 0%,#355f8c 100%);
+    height: 250px;
+    background: linear-gradient(135deg, #000 0%, #355f8c 100%);
 }
 
 .course-card-body .coursename {
-  font-weight: bolder;
-  background-color: #fff !important;
-  color: #36383a !important;
+    font-weight: bolder;
+    background-color: #fff !important;
+    color: #36383a !important;
 }
 
 .btn.btn-primary.grid_button {
-  background-color: #36383a !important;
+    background-color: #36383a !important;
 }
 
 .btn.btn-primary.grid_button a {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 
 /* style navigation breadcrumbs */
 
 ol.breadcrumb {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  text-decoration: none !important;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-decoration: none !important;
 }
 
-/* course page details */
-
-img.activityicon {
-  width: auto !important;
-}
-
-#iframeBounceMessage {
-  color: #fff !important;
-}
-
-.form-inline.felement .atto_group button {
-  background-color: #36383a;
-}
-
-/* stack */
-.content .formulation.clearfix {
-  background-color: transparent;
-}
-
-.content .formulation.clearfix table {
-  color: #fff !important;
-}
-
-.content .formulation.clearfix .stackinputfeedback p {
-  color: #000 !important;
-}
-
-.card-body .que .info {
-  background-color: transparent;
-}
-
-/* returns */
-.earlysubmission.cell.c1.lastcol,
-.submissionnotgraded.cell.c1.lastcol,
-.phase .phasetitle {
-  color: #fff !important;
-}
-
-dl.phase .active li, dl.phase .active a, dl.phase .active .phasetitle {
-  color: #000 !important;
-}
-
-dl.phase .nonactive {
-  background-color: #36383a !important;
-}
-
-/* modals */
-.modal-body, .modal-footer {
-  background-color: #313235 !important;
-  color: #d7d8da !important;
-}
-
-.modal-header, .modal-header .modal-title {
-  background-color: #313235 !important;
-  color: #d7d8da !important;
-}
 
 /*moodle dialogue (submission window) */
+
+
 /* modals moodle-dialogue-hd yui3-widget-hd */
-.moodle-dialogue-hd, .moodle-dialogue-bd {
-  background-color: #313235 !important;
-  color: #d7d8da !important;
+
+.moodle-dialogue-hd,
+.moodle-dialogue-bd {
+    background-color: #313235 !important;
+    color: #d7d8da !important;
 }
 
-.moodle-dialogue-header, .moodle-dialogue-header .moodle-dialogue-title {
-  background-color: #313235 !important;
-  color: #d7d8da !important;
+.moodle-dialogue-header,
+.moodle-dialogue-header .moodle-dialogue-title {
+    background-color: #313235 !important;
+    color: #d7d8da !important;
 }
 
 .btn.btn-secondary.btn-sm {
-  background-color: #313235 !important;
-  color: #d7d8da !important;	
+    background-color: #313235 !important;
+    color: #d7d8da !important;
 }
+
 
 /**Turnitin Submission fix **/
+
 .mod_turnitintooltwo {
-  background-color: #313235 !important;
-  color: #d7d8da !important;	
+    background-color: #313235 !important;
+    color: #d7d8da !important;
 }
+
 
 /** GRADES SECTION **/
-.generaltable tbody tr:nth-of-type(even) > td {
-  background-color: #313235 !important;
+
+.generaltable tbody tr:nth-of-type(even)>td {
+    background-color: #313235 !important;
 }
 
-.generaltable tbody tr:hover > td {
-  background-color: #18191b !important;
+.generaltable tbody tr:hover>td {
+    background-color: #18191b !important;
 }
 
 .popover-region-container,
 .popover-region-seeall-text,
 .popover-region-header-container h3,
 .popover-region-header-container a {
-  color: #7a7e85 !important;
+    color: #7a7e85 !important;
 }
 
+
 /** submission status **/
+
 .submissionstatussubmitted.cell.c1.lastcol {
-	background-color: #008000 !important;
-	color: #33ff33 !important;
+    background-color: #008000 !important;
+    color: #33ff33 !important;
 }
 
 .submissiongraded.cell.c1.lastcol {
-	background-color: #008000 !important;
-	color: #33ff33 !important;
+    background-color: #008000 !important;
+    color: #33ff33 !important;
 }
+
 
 /* footer */
-footer {
-  background-color: #1e2a38 !important;
-}
 
+footer {
+    background-color: #1e2a38 !important;
+}
