@@ -2,7 +2,11 @@
  * Place your custom CSS styles here.
  **/
 /* style non-header links */
-
+body{
+	background: grey;
+	margin: 0;
+  } 
+  
 a {
   color: #d7d8da !important;
   text-decoration: none !important;
@@ -35,6 +39,44 @@ a:hover {
 }
 
 /** moodle quiz**/
+
+/** newmoodle **/
+
+
+
+.section.main.clearfix {
+	background-color: #252628 !important;
+	color: #ffffff !important;	
+}
+
+/** newmoodle - course col-12 **/
+#region-main {
+	background-color: #252628 !important;
+	color: #ffffff !important;		
+}
+
+/** newmoodle - grades: course title and grade FIX **/
+.header.c0, .header.c1 {
+	background-color: #252628 !important;
+	color: #ffffff !important;			
+}
+
+/** newmoodle - discussion author text color && settings buttion **/
+.table {
+	color: #ffffff !important;
+}
+
+.region_main_settings_menu_proxy {
+	background-color: #252628 !important;
+}
+
+/** newmoddle - moodlequiz **/
+.generaltable {
+	background-color: #252628 !important;
+	color: #ffffff !important;		
+}
+
+/** **/
 
 .radio {
 	background-color: #ffffff !important;
@@ -142,10 +184,10 @@ d-inline-block mr-3
 .btn.nav-link.float-sm-left.mr-1.btn-secondary {
 	background-color: #313335 !important;
 }
-/** NU Logo is hidden, because background is white, лень менять **/
+/** NU Logo is hidden, because background is white, лень менять 
 .logo.d-none.d-sm-inline {
 	visibility: hidden !important;
-} 
+} **/
 
 /** **/
 .d-print-none.moodle-has-zindex {
@@ -373,6 +415,16 @@ body,
 .dropdown-menu.show {
   background-color: #252628 !important;
   text-decoration: none !important;
+}
+
+.card-footer.dashboard-card-footer.border-0.bg-white {
+	background-color: #252628 !important;
+	text-decoration: none !important;
+}
+
+.btn.nav-link.float-sm-left.mr-1.btn-light.bg-gray {
+	background-color: #252628 !important;
+	text-decoration: none !important;
 }
 
 /** менюшка под именем с грейдами\профиль **/
